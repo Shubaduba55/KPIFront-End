@@ -1,0 +1,49 @@
+body, input, button{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-container{
+    display: flex;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.form-container{
+    display: flex;
+    flex-flow: column;
+    width: 25vw;
+    align-items: center;
+}
+
+.results-container{
+    display: flex;
+    flex-flow: column;
+    margin-left: 1vw;
+    
+    justify-content: start;
+}
+
+.results-container > p{
+    display: block;
+    
+}
+
+.field{
+    border: solid 1px gray;
+    color: gray;
+    
+}
+
+#Submit, .field{
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    width: 100%; /* Make the input fields take up 100% of the container width */
+    max-width: 100%; /* Ensure the fields don't exceed the container width */
+    
+    padding: 0.75em 0.1em;
+    margin: 0.5em 0em;
+}
+
+.error{
+    color: red;
+    border: solid 1px red;
+}

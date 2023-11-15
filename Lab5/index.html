@@ -1,0 +1,32 @@
+<!DOCTYPE HTML-5>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html">
+        <meta charset="UTF-8">
+        <meta name="description" content="This page is a fifth lab assignment for Front-End discipline">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="scripts/script.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <form class="form-container">
+                <p><b>Форма для заповнення</b></p>
+                <input type="text" name="FullName" id="FullName" class="field" placeholder="ПІБ">          <!-- Прівзище І.Б. -->
+                <input type="text" name="Telephone" id="Telephone" class="field" placeholder="Телефон">      <!-- (999)-999-99-99 --> 
+                <input type="text" name="Idcard" id="Idcard" class="field" placeholder="ID-card">       <!-- ТТ №123456 -->
+                <input type="text" name="Faculty" id="Faculty" class="field" placeholder="Факультет">     <!-- ФІОТ -->
+                <input type="text" name="Birth" id="Birth" class="field" placeholder="Дата Народження"> <!-- 27.11.2003 -->
+                <button type="button" name="Submit" id="Submit" class="">Підтвердити</button>
+            </form>
+
+            <div class="results-container">
+                <p><b>Введені дані</b></p>
+                <p><b>ПІБ: </b><span id="resultFullName"></span></p>
+                <p><b>Телефон: </b><span id="resultTelephone"></span></p>
+                <p><b>ID-card: </b><span id="resultIdcard"></span></p>
+                <p><b>Факультет: </b><span id="resultFaculty"></span></p>
+                <p><b>Дата Народження: </b><span id="resultBirth"></span></p>
+            </div>
+        </div>
+    </body>
+</html>
