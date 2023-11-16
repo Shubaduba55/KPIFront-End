@@ -1,0 +1,25 @@
+"use strict";
+
+function generateTable(nRows, nCols){
+    let table = document.createElement("table");
+
+    let tmpRow;
+    let tmpCell;
+
+    for(let i = 1; i <= nRows; i++){
+
+        tmpRow = table.insertRow();
+        let cellNumber;
+        tmpRow.id = `row${i}`;
+        for(let j = 1; j <= nCols; j++){
+            tmpCell = tmpRow.insertCell();
+            cellNumber = nCols*(i-1)+j;
+
+            tmpCell.textContent = cellNumber;
+            tmpCell.id = `cell${cellNumber}`;
+        }
+    }
+    
+    table.classList.add("myTable");
+    document.body.appendChild(table);
+}
