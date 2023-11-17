@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Raquel",
+                "last": "Saldivar"
+            },
+            "location": {
+                "street": {
+                    "number": 985,
+                    "name": "Continuación Baja California Sur"
+                },
+                "city": "Carapán",
+                "state": "Chiapas",
+                "country": "Mexico",
+                "postcode": 67830,
+                "coordinates": {
+                    "latitude": "29.3257",
+                    "longitude": "151.0291"
+                },
+                "timezone": {
+                    "offset": "+3:30",
+                    "description": "Tehran"
+                }
+            },
+            "email": "raquel.saldivar@example.com",
+            "login": {
+                "uuid": "dc691612-a0f9-4668-bfed-d6b0f3375e7d",
+                "username": "smallsnake486",
+                "password": "swimmer",
+                "salt": "c9JxyH87",
+                "md5": "007363b990c1b25c406891e22bf36901",
+                "sha1": "91f7645e42e68d997555343f2c07eb387d9107d5",
+                "sha256": "74a6c5f7c8b2363fb5c5a3325c71ddaef16e73ab66f685ab2087da2c0c590a7c"
+            },
+            "dob": {
+                "date": "1984-04-21T01:17:33.717Z",
+                "age": 39
+            },
+            "registered": {
+                "date": "2002-10-05T15:37:59.847Z",
+                "age": 21
+            },
+            "phone": "(621) 439 4871",
+            "cell": "(603) 565 5455",
+            "id": {
+                "name": "NSS",
+                "value": "52 24 65 6698 6"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/92.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/92.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/92.jpg"
+            },
+            "nat": "MX"
+        }
+    ],
+    "info": {
+        "seed": "199d0f0b9f8cc50e",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}

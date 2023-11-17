@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #477FF0;
+}
+
+body, input, button{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header{
+    background-color: #5A6170;
+    height: 12vh;
+    text-align: center;
+}
+
+#myButton{
+    width: 96px;
+    height: 35%;
+    margin-top: 1%;
+
+}
+
+#PeopleContainer{
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.HumanContainer{
+    box-sizing: border-box;
+    /* border: 4px solid rgb(20, 145, 118); */
+    border-left: 3px solid #3D4F8A;
+    border-right: 3px solid #3D4F8A;
+    /* border-radius:5px; */
+    background-color: transparent;
+    text-align: center;
+    
+
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 88vh;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+.image{
+    order: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/*DUMMY CLASSES*/
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.monospace{
+    font-family: monospace;
+}
+
+.yellowText{
+    background-color: #617BB0;
+}
