@@ -1,0 +1,31 @@
+.good-card img {
+       
+
+    width: 15vw;
+    resize:none;
+    max-width: 15vw;
+    max-height: 40vh;
+}
+
+
+.good-card p {       
+    font-weight: bold;
+}
+
+.good-card :nth-child(2) {
+       
+    color: rgb(0, 94, 153);
+}
+
+.good-card :nth-child(3) {
+       
+    color: rgb(96, 173, 96);
+}
+
+.goods-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
