@@ -41,8 +41,7 @@ function zoomOut(){
 
 
 function Image(){
-
-    
+ 
     return ( <div>
 
     
